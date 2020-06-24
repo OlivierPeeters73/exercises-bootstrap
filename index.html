@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Challenge for playing with Bootstrap, specifically its grid system. At the end of this challenge we should be able to place elements using Bootstrap.">
+    <meta name="author" content="Olivier Peeters">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Exercice Bootstrap</title>
+</head>
+<body>
+    <h1>I - blocs positioning</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">12 colonnes
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-1">Coucou</div>
+                    <div class="col-lg-3 col-lg-offset-2">ça</div>
+                    <div class="col-lg-2 col-lg-offset-2">va ?</div>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <h1>II - imbricated elements</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">Nouvel</div>
+            <div class="col-lg-8"><b>Exercice</b>
+                <div class="row">
+                    <div class="col-lg-3">ces</div>
+                    <div class="col-lg-6">blocs sont tous</div>
+                    <div class="col-lg-3">dans</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">la même</div>
+                    <div class="col-lg-4">div où est</div>
+                    <div class="col-lg-4">inscrit <b>"Exercice"</b></div>                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">comment</div>
+                    <div class="col-lg-2">est</div>
+                    <div class="col-lg-5">ce possible ?</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>III - change elements order</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">12 colonnes
+                <div class="row">
+                    <div class="col-lg-2 col-lg-push-1">Bloc 1 de 2</div>
+                    <div class="col-lg-2 col-lg-push-7">Bloc 2 de 2</div>
+                    <div class="col-lg-2 col-lg-push-1">Bloc 3 de 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>IV - practice makes good</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">6 colonnes
+                <div class="row">
+                    <div class="col-lg-4">4 colonnes</div>
+                    <div class="col-lg-4 col-lg-offset-4">4 colonnes</div>
+                </div>
+            </div>
+            <div class="col-lg-6">6 colonnes
+                <div class="row">
+                    <div class="col-lg-4">4 colonnes</div>
+                    <div class="col-lg-8">8 colonnes</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h1>V - responsive layout</h1>
+</body>
+</html>

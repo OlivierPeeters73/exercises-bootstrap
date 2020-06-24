@@ -1,0 +1,25 @@
+body {
+    padding-top: 10px;
+}
+
+[class*="col-"] {
+    background-color: rgb(205, 165, 243);
+    border: 2px solid black;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    font-size: large;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
