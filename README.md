@@ -5,7 +5,7 @@
 ## Description:
 Challenge for playing with Bootstrap, specifically its grid system.
 
-# Objectives:
+## Objectives:
 At the end of this challenge we should be able to place elements using Bootstrap.
 
 ## Instructions:
