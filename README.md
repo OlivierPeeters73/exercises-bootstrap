@@ -1,5 +1,7 @@
 # exercises-bootstrap
 
+[My page](https://olivierpeeters73.github.io/exercises-bootstrap/)
+
 ## Description:
 Challenge for playing with Bootstrap, specifically its grid system.
 
@@ -17,5 +19,5 @@ HTML5 and CSS3
 Ongoing ...
 
 ## Example of a result to be achieved:
-image::https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/03-HTML-CSS/bootstrap/bootstrap-ex04.png
+![example](https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/03-HTML-CSS/bootstrap/bootstrap-ex04.png)
 
