@@ -1,5 +1,6 @@
 body {
     padding-top: 10px;
+    margin: 10px;
 }
 
 [class*="col-"] {
@@ -12,6 +13,15 @@ body {
 
 h1 {
     margin-bottom: 20px;
+}
+
+p {
+    margin-left: 40px;
+    font-size: 2em;
+}
+
+p a {
+    font-weight: bold;
 }
 
 .container-fluid {
